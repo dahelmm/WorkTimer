@@ -60,7 +60,7 @@ void MainWindow::showMessage(typeWork typeWorkForMessage)
         }
         break;
     }
-    trayIcon->showMessage(tr("Внимание!"), message, QSystemTrayIcon::Information, -1);
+    trayIcon->showMessage(tr("Внимание!"), message, QSystemTrayIcon::Information);
 }
 
 void MainWindow::updateInformation()
